@@ -9,7 +9,7 @@
     <body id="top">
         {{- partial "header.html" . -}}
         <div id="content">
-        {{- block "main" . }}{{- end }}
+        {{- block "main" . }}{{ .Content }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
     </body>

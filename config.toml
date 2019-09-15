@@ -1,4 +1,15 @@
-baseURL = "https://barrymarries.com"
+baseURL = "https://www.barrymarries.com/"
 languageCode = "en-us"
 title = "Barry Marries!"
 theme = "barrymarries"
+relativeURLs = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About Barry"
+    url = "/about/"
+    weight = 2
