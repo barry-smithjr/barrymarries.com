@@ -1,7 +1,7 @@
 baseURL = "https://www.barrymarries.com/"
 languageCode = "en-us"
 title = "Barry Marries!"
-theme = "barrymarries"
+theme = "hugo-theme-barrymarries"
 relativeURLs = true
 
 [menu]
