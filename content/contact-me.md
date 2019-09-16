@@ -9,7 +9,7 @@ menu:
 ---
 <div align="center"><h1>Contact Me!</h1></div>
 <br />
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" action="https://formspree.io/barry@barrysmith.me" method="POST">
   <div class="form-group row">
     <label for="name" class="col-4 col-form-label">Name</label> 
     <div class="col-8">
