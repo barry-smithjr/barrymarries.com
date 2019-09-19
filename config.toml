@@ -6,4 +6,4 @@ relativeURLs = true
 sectionPagesMenu = "main"
 
 [params]
-  theme = "darkly"
+  theme = "lux"
