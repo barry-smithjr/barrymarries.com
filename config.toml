@@ -4,3 +4,6 @@ title = "Barry Marries!"
 theme = "hugo-theme-barrymarries"
 relativeURLs = true
 sectionPagesMenu = "main"
+
+[params]
+  theme = "darkly"
