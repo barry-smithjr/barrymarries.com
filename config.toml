@@ -7,3 +7,4 @@ sectionPagesMenu = "main"
 
 [params]
   theme = "lux"
+  copyrighthtml = "Content &copy;  <script>document.write(new Date().getFullYear())</script>, Barry Smith. All Rights Reserved."
