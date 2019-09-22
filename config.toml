@@ -41,4 +41,3 @@ sectionPagesMenu = "main"
 [params]
   theme = "simplex"
   copyrighthtml = "Content &copy;  <script>document.write(new Date().getFullYear())</script>, Barry Smith. All Rights Reserved."
-  #faprourl = "https://kit.fontawesome.com/92d57ef7ed.js"
