@@ -5,6 +5,6 @@ draft: false
 layout: single
 ---
 
-<h1 style="text-align: center; "><b style="color: rgb(0, 0, 0);">Barry Marries!</b></h1>
-<h3 style="text-align: center; "><b style="color: rgb(0, 0, 0);">Be Happy, Be Married, Be Barried!</b></h3><h3 style="text-align: center; "><b style="color: rgb(0, 0, 0);"><br></b></h3>
-<p align="center" class="animated fadeInUp slow"><img src="images/rings.png" class="img-fluid"></p>
+<p><h3 class="text-center"><strong>Barry Marries!</strong></h3></p>
+<p><h3 class="text-center"><strong>Be Happy! Be Married! Be Barried!</strong></h3></p>
+<p align="center" class="animated fadeInUp slow"><img src="/images/rings.png" class="img-fluid"></p>

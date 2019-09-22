@@ -33,3 +33,4 @@ weight = 1
 [params]
 copyrighthtml = "Content &copy;  <script>document.write(new Date().getFullYear())</script>, Barry Smith. All Rights Reserved."
 theme = "simplex"
+#fa_pro_url = "https://kit.fontawesome.com/92d57ef7ed.js"
