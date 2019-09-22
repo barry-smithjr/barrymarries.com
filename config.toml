@@ -1,36 +1,44 @@
 baseURL = "https://www.barrymarries.com/"
 languageCode = "en-us"
+title = "Barry Marries!"
+theme = "hugo-theme-barrymarries"
 relativeURLs = true
 sectionPagesMenu = "main"
-theme = "hugo-theme-barrymarries"
-title = "Barry Marries!"
+
+# Main menu
+
 [[menu.main]]
-identifier = "officiating"
-name = "Officiating"
-parent = "Services"
-url = "/services/officiating/"
-weight = 1
+    identifier="home"
+    name = "Home"
+    url  = "/"
+    weight = 1
+
 [[menu.main]]
-identifier = "contact"
-name = "Contact Me"
-url = "/contact-me/"
-weight = 4
+    identifier="about"
+    name = "About Barry"
+    url  = "/about/"
+    weight = 2
+
 [[menu.main]]
-identifier = "services"
-name = "Services"
-url = "/services/"
-weight = 3
+    identifier = "services"
+    name = "Services"
+    url  = "/services/"
+    weight = 3
+    
 [[menu.main]]
-identifier = "about"
-name = "About Barry"
-url = "/about/"
-weight = 2
+    parent = "services"
+    identifier = "officiating"
+    name = "Offiiating"
+    url  = "/services/officiating/"
+    weight = 1
+
 [[menu.main]]
-identifier = "home"
-name = "Home"
-url = "/"
-weight = 1
+    identifier = "contact"
+    name = "Contact Me"
+    url  = "/contact-me/"
+    weight = 4
+
 [params]
-copyrighthtml = "Content &copy;  <script>document.write(new Date().getFullYear())</script>, Barry Smith. All Rights Reserved."
-theme = "simplex"
-#fa_pro_url = "https://kit.fontawesome.com/92d57ef7ed.js"
+  theme = "simplex"
+  copyrighthtml = "Content &copy;  <script>document.write(new Date().getFullYear())</script>, Barry Smith. All Rights Reserved."
+  #faprourl = "https://kit.fontawesome.com/92d57ef7ed.js"
