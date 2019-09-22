@@ -1,44 +1,35 @@
 baseURL = "https://www.barrymarries.com/"
 languageCode = "en-us"
-title = "Barry Marries!"
-theme = "hugo-theme-barrymarries"
 relativeURLs = true
 sectionPagesMenu = "main"
-
-# Main menu
-
+theme = "hugo-theme-barrymarries"
+title = "Barry Marries!"
 [[menu.main]]
-    identifier="home"
-    name = "Home"
-    url  = "/"
-    weight = 1
-
+identifier = "officiating"
+name = "Officiating"
+parent = "Services"
+url = "/services/officiating/"
+weight = 1
 [[menu.main]]
-    identifier="about"
-    name = "About Barry"
-    url  = "/about/"
-    weight = 2
-
+identifier = "contact"
+name = "Contact Me"
+url = "/contact-me/"
+weight = 4
 [[menu.main]]
-    identifier = "services"
-    name = "Services"
-    url  = "/services/"
-    weight = 3
-    
+identifier = "services"
+name = "Services"
+url = "/services/"
+weight = 3
 [[menu.main]]
-    parent = "services"
-    identifier = "officiating"
-    name = "Offiiating"
-    url  = "/services/officiating/"
-    weight = 1
-
+identifier = "about"
+name = "About Barry"
+url = "/about/"
+weight = 2
 [[menu.main]]
-    identifier = "contact"
-    name = "Contact Me"
-    url  = "/contact-me/"
-    weight = 4
-
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
 [params]
-  theme = "simplex"
-  copyrighthtml = "Content &copy;  <script>document.write(new Date().getFullYear())</script>, Barry Smith. All Rights Reserved."
-  #faprourl = "https://kit.fontawesome.com/92d57ef7ed.js"
+copyrighthtml = "Content &copy;  <script>document.write(new Date().getFullYear())</script>, Barry Smith. All Rights Reserved."
+theme = "simplex"
