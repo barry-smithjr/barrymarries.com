@@ -28,8 +28,8 @@ sectionPagesMenu = "main"
 [[menu.main]]
     parent = "services"
     identifier = "officiating"
-    name = "Offiiating"
-    url  = "/services/officiating/"
+    name = "Officiating"
+    url  = "/officiating/"
     weight = 1
 
 [[menu.main]]
@@ -39,5 +39,6 @@ sectionPagesMenu = "main"
     weight = 4
 
 [params]
+  owner = "Barry Smith"
   theme = "simplex"
-  copyrighthtml = "Content &copy;  <script>document.write(new Date().getFullYear())</script>, Barry Smith. All Rights Reserved."
+  copyrighthtml = "Content &copy; <script>document.write(new Date().getFullYear())</script>, Barry Smith. All Rights Reserved."
