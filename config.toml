@@ -4,6 +4,7 @@ title = "Barry Marries!"
 theme = "hugo-theme-barrymarries"
 relativeURLs = true
 sectionPagesMenu = "main"
+paginate = "1"
 
 # Main menu
 
