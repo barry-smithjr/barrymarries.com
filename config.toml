@@ -34,6 +34,13 @@ paginate = "1"
     weight = 1
 
 [[menu.main]]
+    parent = "services"
+    identifier = "hosting"
+    name = "Reception Hosting"
+    url  = "/hosting/"
+    weight = 1
+
+[[menu.main]]
     identifier = "contact"
     name = "Contact Me"
     url  = "/contact-me/"
