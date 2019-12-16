@@ -7,8 +7,9 @@ layout: single
 
 <p><h3 class="text-center"><strong>Barry Marries!</strong></h3></p>
 <p><h3 class="text-center"><strong>Be Happy! Be Married! Be Barried!</strong></h3></p>
-<p align="center" class="animated fadeInUp slow"><img src="/images/rings.png" class="img-fluid"></p>
-
+<br>
+<p class="text-center">Welcome! Congratulations on finding true love!</p>
+<br>
 <div class="container animated fadeInUp slower">
   <div class="row">
     <div class="col-sm" align="center">
@@ -27,7 +28,7 @@ layout: single
         <div class="card-body">
           <h5 class="card-title">Reception Hosting</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Learn More</a>
+          <a href="/hosting/" class="btn btn-primary">Learn More</a>
         </div>
       </div>
     </div>
